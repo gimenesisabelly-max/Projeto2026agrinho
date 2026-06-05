@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+    margin:0;
+        padding:0;
+            box-sizing:border-box;
+            }
+
+            body{
+                font-family:'Orbitron',sans-serif;
+                    background:#03091d;
+                        color:white;
+                            background-image:
+                                radial-gradient(#00eaff22 1px, transparent 1px);
+                                    background-size:30px 30px;
+                                    }
+
+                                    header{
+                                        text-align:center;
+                                            padding:50px 20px;
+                                            }
+
+                                            header h1{
+                                                color:#00eaff;
+                                                    font-size:3rem;
+                                                        text-shadow:0 0 20px #00eaff;
+                                                        }
+
+                                                        header p{
+                                                            color:#9fdcff;
+                                                            }
+
+                                                            section{
+                                                                max-width:1100px;
+                                                                    margin:auto;
+                                                                        padding:40px 20px;
+                                                                        }
+
+                                                                        h2{
+                                                                            color:#00ff9d;
+                                                                                margin-bottom:20px;
+                                                                                    text-shadow:0 0 10px #00ff9d;
+                                                                                    }
+
+                                                                                    .intro p,
+                                                                                    .destaque p,
+                                                                                    .inspiracao p{
+                                                                                        line-height:1.8;
+                                                                                            margin-bottom:15px;
+                                                                                            }
+
+                                                                                            .card,
+                                                                                            .box,
+                                                                                            .desafio{
+                                                                                                background:#08142d;
+                                                                                                    border:1px solid #00ff9d44;
+                                                                                                        border-radius:15px;
+                                                                                                            padding:20px;
+                                                                                                                margin:15px 0;
+                                                                                                                    box-shadow:0 0 15px #00ff5533;
+                                                                                                                    }
+
+                                                                                                                    .estatisticas{
+                                                                                                                        display:grid;
+                                                                                                                            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+                                                                                                                                gap:20px;
+                                                                                                                                }
+
+                                                                                                                                button{
+                                                                                                                                    background:linear-gradient(
+                                                                                                                                        90deg,
+                                                                                                                                            #00ff9d,
+                                                                                                                                                #00eaff
+                                                                                                                                                    );
+
+                                                                                                                                                        border:none;
+                                                                                                                                                            padding:15px 30px;
+                                                                                                                                                                border-radius:30px;
+                                                                                                                                                                    cursor:pointer;
+                                                                                                                                                                        font-weight:bold;
+                                                                                                                                                                            margin-top:20px;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            button:hover{
+                                                                                                                                                                                transform:scale(1.05);
+                                                                                                                                                                                }
+
+                                                                                                                                                                                footer{
+                                                                                                                                                                                    text-align:center;
+                                                                                                                                                                                        padding:30px;
+                                                                                                                                                                                            border-top:1px solid #00eaff33;
+                                                                                                                                                                                                margin-top:40px;
+                                                                                                                                                                                                }
